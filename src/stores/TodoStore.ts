@@ -1,4 +1,5 @@
 import { makeAutoObservable } from 'mobx';
+
 import { ITodo, Todo } from 'models/TodoModel';
 import { TodoServiceInstance } from 'services/TodoService';
 
@@ -22,12 +23,11 @@ class TodoStore implements ITodoStore {
 
   async loadTodos() {
     this.isLoading = true;
-    console.log(this.transportLayer.fetchTodos());
     this.todos = await this.transportLayer.fetchTodos();
   }
 
   createTodo() {
-    const todo = new Todo('hahahah');
+    const todo = new Todo('new todo');
     this.todos.push(todo);
     return todo;
   }

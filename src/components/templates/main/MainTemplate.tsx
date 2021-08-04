@@ -1,9 +1,9 @@
+import { ITodo } from 'models/TodoModel';
 import Typography, {
   TypographyAlign,
   TypographyVariants,
 } from 'components/atoms/typography/Typography';
 import TodoList from 'components/organisms/todoList/TodoList';
-import { ITodo } from 'models/TodoModel';
 
 type PropTypes = {
   title: string;

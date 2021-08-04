@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+
 import './Typography.scss';
 
 export enum TypographyVariants {

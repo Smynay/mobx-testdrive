@@ -1,11 +1,12 @@
 import classNames from 'classnames';
+
+import './TodoList.scss';
+
+import { ITodo } from 'models/TodoModel';
 import Typography, {
   TypographyVariants,
 } from 'components/atoms/typography/Typography';
 import TodoPlate from 'components/molecules/todoPlate/TodoPlate';
-import { ITodo } from 'models/TodoModel';
-
-import './TodoList.scss';
 
 type PropTypes = {
   todoArray: ITodo[];

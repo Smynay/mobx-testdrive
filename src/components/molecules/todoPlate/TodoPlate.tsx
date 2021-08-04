@@ -1,8 +1,9 @@
 import classNames from 'classnames';
-import Plate from 'components/atoms/plate/Plate';
-import { ITodo } from 'models/TodoModel';
 
 import './TodoPlate.scss';
+
+import { ITodo } from 'models/TodoModel';
+import Plate from 'components/atoms/plate/Plate';
 
 type PropTypes = {
   item: ITodo;

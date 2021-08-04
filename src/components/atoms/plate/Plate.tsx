@@ -1,5 +1,6 @@
-import './Plate.scss';
 import classNames from 'classnames';
+
+import './Plate.scss';
 
 type PropTypes = {
   children: React.ReactNode;

@@ -1,6 +1,7 @@
+import { Switch, Route, Redirect } from 'react-router';
+
 import ErrorPage from 'components/pages/error/ErrorPage';
 import HomePage from 'components/pages/home/HomePage';
-import { Switch, Route, Redirect } from 'react-router';
 
 /**
  * Roter that contains main app routes
