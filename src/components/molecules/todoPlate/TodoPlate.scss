@@ -1,0 +1,13 @@
+.todo-plate {
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 0px;
+  }
+
+  &_completed {
+    text-decoration: line-through;
+    color: #808080;
+    background-color: #d0f0c0;
+  }
+}
