@@ -1,11 +1,14 @@
-import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import MainRoutes from 'routes/MainRoutes';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>App working!!!</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <MainRoutes />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
