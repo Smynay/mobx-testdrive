@@ -1,0 +1,25 @@
+.typography {
+  &_titile {
+    font-size: 1.6rem;
+  }
+
+  &_subtitle {
+    font-size: 1.2rem;
+  }
+
+  &_text {
+    font-size: 1rem;
+  }
+
+  &_right {
+    text-align: right;
+  }
+
+  &_center {
+    text-align: center;
+  }
+
+  &_left {
+    text-align: left;
+  }
+}
